@@ -1,0 +1,68 @@
+
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+  }
+
+  header {
+    padding: 2rem;
+    grid-column: 1 / 4;
+    /* display: inline-block; */
+  }
+  
+  .left-side {
+    grid-column: 1 / 2;
+   
+  }
+  
+  main {
+    grid-column: 2 / 3;
+  }
+  
+  .right-side {
+    grid-column: 3 / 4;
+  }
+  
+  footer {
+    grid-column: 1 / 4;
+  }
+
+  .coral
+  {
+    background-color: rgb(216, 165, 146)
+  }
+
+  .blue
+  {
+    background-color: rgb(174, 174, 237)
+  }
+
+  .green
+  {
+    background-color: rgb(146, 185, 146)
+  }
+  
+  .yellow
+  {
+    background-color: rgb(222, 222, 161)
+  }
+
+.padding
+  {
+    padding-right: 30px;
+  }
+
+ .MosaraLogo
+  {
+      float: left;
+  }
+
+  #RightMargin
+  {
+    float:right;
+  }
+
+  .Remove-List-Bullets
+  {
+    list-style-type: none;
+  }
